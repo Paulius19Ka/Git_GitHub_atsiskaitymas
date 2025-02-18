@@ -1,4 +1,5 @@
 import StartState from "./StartState.js";
+import ListItem from "./ListItem.js";
 
 class Tab{
     constructor(tab){
@@ -11,6 +12,7 @@ class Tab{
         startState.remove();
 
         const tabWrapper = document.createElement('div');
+        tabWrapper.setAttribute('id', 'tabState');
         tabWrapper.classList.add('tabWrapper', 'backgroundOverlay', 'verticalFlex');
 
         const heading = document.createElement('h2');
@@ -29,8 +31,10 @@ class Tab{
         closeButton.setAttribute('alt', 'close tab button');
         closeButton.classList.add('closeButton');
         closeButton.addEventListener('click', e => {
-            console.log('x');
-            new startState();
+            const tabState = document.getElementById('tabState');
+            tabState.remove();
+            new StartState();
+            new ListItem();
         })
 
         tabWrapper.append(heading, paragraphWrapper, closeButton);
