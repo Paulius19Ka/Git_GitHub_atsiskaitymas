@@ -18,6 +18,10 @@ class Tab{
         const heading = document.createElement('h2');
         heading.textContent = this.tab.heading;
 
+        const image = document.createElement('img');
+        image.setAttribute('src', `${this.tab.image}`);
+        image.setAttribute('alt', `${this.tab.image.slice(8)}`);
+
         const paragraphWrapper = document.createElement('div');
         // Runing a loop through the array in data object, to create paragraphs for each paragraph in array
         this.tab.paragraphs.forEach(paragraph => {
@@ -37,7 +41,7 @@ class Tab{
             new ListItem();
         })
 
-        tabWrapper.append(heading, paragraphWrapper, closeButton);
+        tabWrapper.append(heading, image, paragraphWrapper, closeButton);
 
         return document.querySelector('main').appendChild(tabWrapper);
     }
