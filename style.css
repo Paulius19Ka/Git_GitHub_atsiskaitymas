@@ -53,11 +53,17 @@ h1.fontWhiteUppercase{
     display: flex;
     flex-direction: column;
 }
+.verticalLine{
+    width: 0px;
+    height: 50px;
+    border-left: 1px solid var(--text-main);
+    align-self: center;
+}
 .gem{
     /* Gem */
     width: 50px;
     margin-top: 80px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 30px;
     border: 1px solid var(--text-main);
     border-radius: 100%;
@@ -66,6 +72,7 @@ h1.fontWhiteUppercase{
 .menuList{
     /* Menu List */
     list-style-type: none;
+    margin-top: 0px;
     li{
         border: 1px solid var(--text-main);
         border-radius: 3px;
@@ -74,6 +81,7 @@ h1.fontWhiteUppercase{
     }
 }
 .headerAndTextWrapper{
+    /* Div that contains the header and the paragraph */
     border-bottom: 1px solid var(--text-main);
     border-top: 1px solid var(--text-main);
     margin: 0 10px;
