@@ -2,7 +2,7 @@
     /* Font */
     font-family: "Roboto Flex", serif;
     /* Colours */
-    --background-overlay: #202020b2;
+    --background-overlay: #3939399d;
     --background-overlay-tab: #121212b2;
     --background-tab: #1a1a21ec;
     --text-main: #ffffff;
@@ -56,6 +56,9 @@ h1.fontWhiteUppercase{
     background-image: url('./media/bg-overlay.png');
     background-color: var(--background-overlay);
     height: 100vh;
+}
+.backgroundOverlayTabOpen{
+    background-color: var(--background-overlay-tab);
 }
 
 /* Main */

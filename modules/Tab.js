@@ -8,6 +8,8 @@ class Tab{
         return this.render();
     }
     render(){
+        const main = document.querySelector('main');
+        main.classList.add('backgroundOverlayTabOpen');
         // Removes the starging elements from the page
         const startState = document.getElementById('startState');
         startState.remove();
@@ -38,6 +40,7 @@ class Tab{
         closeButton.addEventListener('click', e => {
             const tabState = document.getElementById('tabState');
             tabState.remove();
+            main.classList.remove('backgroundOverlayTabOpen');
             new StartState();
             new ListItem();
         })
