@@ -12,8 +12,10 @@ class ListItem{
         const listItem = document.createElement('li');
         listItem.textContent = this.tab.heading;
 
+        // Adding an event listener to every list item
         listItem.addEventListener('click', () => {
             console.log(this.tab.heading);
+            new Tab(this.tab);
         })
 
         menuList.appendChild(listItem);
