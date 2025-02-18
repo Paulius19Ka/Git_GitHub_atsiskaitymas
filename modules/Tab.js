@@ -61,7 +61,6 @@ class Tab{
             new StartState();
             new ListItem();
         })
-
         tabWrapper.append(heading, image, paragraphWrapper, closeButton);
 
         return document.querySelector('main').appendChild(tabWrapper);

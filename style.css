@@ -9,7 +9,6 @@
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
 }
-
 body{
     margin: 0;
 }
@@ -20,7 +19,6 @@ h1, p, ul{
 h1, p{
     margin: 35px 10px;
 }
-
 /* Text styles */
 .fontWhiteUppercase{
     /* To make the text uppercase, set colour, etc */
@@ -48,7 +46,6 @@ h1.fontWhiteUppercase{
     letter-spacing: 0.3rem;
     text-align: center;
 }
-
 /* Background image and overlays */
 .backgroundImg{
     background-image: url('./media/bg.jpg');
@@ -66,7 +63,6 @@ h1.fontWhiteUppercase{
     background-color: var(--background-overlay-tab);
     min-height: 100vh;
 }
-
 /* Main */
 main{
     display: flex;
@@ -111,7 +107,7 @@ main{
     flex-direction: column;
     li{
         border: 1px solid var(--text-main);
-        border-radius: 3px; /* needs fixing */
+        border-radius: 3px;
         padding: 15px;
         text-align: center;
         transition: ease-out 0.5s;
@@ -231,5 +227,4 @@ main{
             right: 30px;
         }
     }
-
 }
