@@ -21,11 +21,9 @@ class ListItem{
                 listItem.addEventListener('click', () => {
                     new Tab(tab);
                 })
-
                 menuList.appendChild(listItem);
 
                 return menuList;
-                
             })
         })
         .catch(error => console.error('Error: ', error));
