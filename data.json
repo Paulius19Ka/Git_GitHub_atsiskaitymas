@@ -2,28 +2,28 @@
     "tabs": [
         {
             "id": "1111",
-            "heading": "INTRO",
+            "heading": "intro",
             "image": "./media/tab-1.mp4",
             "paragraph0": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam cupiditate eos numquam, distinctio porro at. Autem ad deserunt enim.",
             "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae enim ex omnis eius porro dolorum atque ipsa excepturi sint! Nisi asperiores excepturi molestias vitae ipsa! Quos animi magnam voluptatem porro dolores quasi assumenda voluptas tenetur dolore veniam ad, cum, recusandae obcaecati eligendi doloremque itaque perferendis sed fugiat, ex sint."
         },
         {
             "id": "2222",
-            "heading": "WORK",
+            "heading": "work",
             "image": "./media/tab-2.jpg",
             "paragraph0": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam cupiditate eos numquam, distinctio porro at. Autem ad deserunt enim.",
             "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae enim ex omnis eius porro dolorum atque ipsa excepturi sint! Nisi asperiores excepturi molestias vitae ipsa! Quos animi magnam voluptatem porro dolores quasi assumenda voluptas tenetur dolore veniam ad, cum, recusandae obcaecati eligendi doloremque itaque perferendis sed fugiat, ex sint."
         },
         {
             "id": "3333",
-            "heading": "ABOUT",
+            "heading": "about",
             "image": "./media/tab-3.jpg",
             "paragraph0": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam cupiditate eos numquam, distinctio porro at. Autem ad deserunt enim.",
             "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae enim ex omnis eius porro dolorum atque ipsa excepturi sint! Nisi asperiores excepturi molestias vitae ipsa! Quos animi magnam voluptatem porro dolores quasi assumenda voluptas tenetur dolore veniam ad, cum, recusandae obcaecati eligendi doloremque itaque perferendis sed fugiat, ex sint."
         },
         {
             "id": "4444",
-            "heading": "CONTACT",
+            "heading": "contact",
             "image": "./media/tab-4.jpg",
             "paragraph0": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam cupiditate eos numquam, distinctio porro at. Autem ad deserunt enim.",
             "paragraph1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae enim ex omnis eius porro dolorum atque ipsa excepturi sint! Nisi asperiores excepturi molestias vitae ipsa! Quos animi magnam voluptatem porro dolores quasi assumenda voluptas tenetur dolore veniam ad, cum, recusandae obcaecati eligendi doloremque itaque perferendis sed fugiat, ex sint."

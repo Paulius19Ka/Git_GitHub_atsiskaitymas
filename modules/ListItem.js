@@ -4,9 +4,9 @@ class ListItem{
         return this.render();
     }
     render(){
-        console.log(this.tab.heading)
         const menuList = document.querySelector('.menuList');
 
+        // Creating a list item element, assigning text content to "heading" from data.json
         const listItem = document.createElement('li');
         listItem.textContent = this.tab.heading;
 
