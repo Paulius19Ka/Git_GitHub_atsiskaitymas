@@ -46,9 +46,15 @@ h1.fontWhiteUppercase{
 }
 
 /* Main */
+.verticalFlex{
+    display: flex;
+    flex-direction: column;
+}
 .gem{
     /* Gem */
     width: 50px;
+
+    align-self: center;
 }
 .menuList{
     /* Menu List */
