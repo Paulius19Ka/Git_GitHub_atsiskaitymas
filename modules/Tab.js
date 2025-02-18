@@ -1,5 +1,6 @@
 import StartState from "./StartState.js";
 import ListItem from "./ListItem.js";
+import TabMedia from "./TabMedia.js";
 
 class Tab{
     constructor(tab){
@@ -18,10 +19,8 @@ class Tab{
         const heading = document.createElement('h2');
         heading.textContent = this.tab.heading;
 
-        const image = document.createElement('img');
-        image.setAttribute('src', `${this.tab.image}`);
-        image.setAttribute('alt', `${this.tab.image.slice(8)}`);
-        image.classList.add('tabImage');
+        // Class to create images/videos in tabs, depending on file type
+        const image = new TabMedia(this.tab.image);
 
         const paragraphWrapper = document.createElement('div');
         // Runing a loop through the array in data object, to create paragraphs for each paragraph in array
