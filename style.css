@@ -3,6 +3,7 @@
     font-family: "Roboto Flex", serif;
     /* Colours */
     --background-overlay: #3e3e3e7e;
+    --background-tab: #282834ec;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
@@ -102,11 +103,34 @@ h1.fontWhiteUppercase{
     margin: 0 10px;
 }
 /* Tab */
+.tabBackground{
+    background-color: var(--background-tab);
+}
+.tabWrapper{
+    color: var(--text-main);
+    gap: 20px;
+    margin: 10px;
+    padding: 40px 30px;
+    > h2{
+        width: fit-content;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+        border-bottom: 1px solid var(--text-main);
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .tabImage{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
 .closeButton{
     width: 20px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 }
 
 /* Desktop style */
