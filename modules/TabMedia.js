@@ -13,7 +13,8 @@ class TabMedia{
             return image;
         } else if(this.img.slice(-3) === 'mp4'){
             const video = document.createElement('video');
-            video.setAttribute('controls', '');
+            video.setAttribute('autoplay', '');
+            video.setAttribute('loop', '');
             video.classList.add('tabVideo');
 
             const source = document.createElement('source');

@@ -2,8 +2,9 @@
     /* Font */
     font-family: "Roboto Flex", serif;
     /* Colours */
-    --background-overlay: #3e3e3e7e;
-    --background-tab: #1a1a21ec;
+    --background-overlay: #3939399d;
+    --background-overlay-tab: #121212b2;
+    --background-tab: #2c2c36cf;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
@@ -54,12 +55,23 @@ h1.fontWhiteUppercase{
 .backgroundOverlay{
     background-image: url('./media/bg-overlay.png');
     background-color: var(--background-overlay);
+    min-height: 100vh;
+}
+.backgroundOverlayTabOpen{
+    background-image: url('./media/bg-overlay.png');
+    background-color: var(--background-overlay-tab);
+    min-height: 100vh;
 }
 
 /* Main */
+main{
+    display: flex;
+    flex-direction: column;
+}
 .verticalFlex{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .verticalLine{
     width: 0px;
@@ -71,7 +83,6 @@ h1.fontWhiteUppercase{
     /* Gem */
     width: 50px;
     margin-top: 200px;
-    /* margin-bottom: 50px; */
     padding: 30px;
     border: 1px solid var(--text-main);
     border-radius: 100%;
@@ -109,7 +120,7 @@ h1.fontWhiteUppercase{
 .tabWrapper{
     color: var(--text-main);
     gap: 20px;
-    margin: 10px;
+    margin: 10px 10px;
     padding: 40px 30px;
     position: relative;
     > h2{
@@ -161,10 +172,6 @@ h1.fontWhiteUppercase{
         font-size: 3rem;
     }
     /* Main */
-    main{
-        display: flex;
-        flex-direction: column;
-    }
     .gem{
         margin-top: 300px;
     }

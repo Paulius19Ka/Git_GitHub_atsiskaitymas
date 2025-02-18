@@ -6,7 +6,7 @@ class StartState{
         // Creates the starting html page
         const div = document.createElement('div');
         div.setAttribute('id', 'startState');
-        div.classList.add('backgroundOverlay', 'verticalFlex');
+        div.classList.add('verticalFlex');
 
         const gem = document.createElement('img');
         gem.setAttribute('src', './media/gem-regular.svg');
