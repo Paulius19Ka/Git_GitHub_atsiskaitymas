@@ -9,6 +9,23 @@
 body{
     margin: 0;
 }
+/* Text styles */
+.fontWhiteUppercase{
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    color: var(--text-main);
+    text-transform: uppercase;
+}
+.fontDotUnderline{
+    border-bottom: 1px dotted var(--text-main);
+}
+h1.fontWhiteUppercase{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
 /* Background image */
 .backgroundImg{
     background-image: url('./media/bg.jpg');
