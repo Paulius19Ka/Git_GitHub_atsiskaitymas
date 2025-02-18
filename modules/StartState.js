@@ -13,8 +13,10 @@ class StartState{
         gem.setAttribute('alt', 'a gem');
         gem.classList.add('gem');
 
-        const verticalLine = document.createElement('div');
-        verticalLine.classList.add('verticalLine');
+        const verticalLine0 = document.createElement('div');
+        verticalLine0.classList.add('verticalLine');
+        const verticalLine1 = document.createElement('div');
+        verticalLine1.classList.add('verticalLine');
 
         const headerAndTextWrapper = document.createElement('div');
         headerAndTextWrapper.classList.add('headerAndTextWrapper');
@@ -31,7 +33,7 @@ class StartState{
         const unorderedList = document.createElement('ul');
         unorderedList.classList.add('fontWhiteUppercase', 'menuList');
 
-        div.append(gem, verticalLine, headerAndTextWrapper, verticalLine, unorderedList);
+        div.append(gem, verticalLine0, headerAndTextWrapper, verticalLine1, unorderedList);
 
         return document.querySelector('main').appendChild(div);
     }
