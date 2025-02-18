@@ -92,7 +92,16 @@ main{
     border: 1px solid var(--text-main);
     border-radius: 100%;
     align-self: center;
+    transition: ease-in-out 1s;
 }
+.gem:hover{
+    width: 70px;
+    margin-top: 180px;
+    animation: gemShadow 5s infinite;
+}
+@keyframes gemShadow {
+    50% {box-shadow: 0px 0px 50px var(--text-hover);}
+  }
 .menuList{
     /* Menu List */
     list-style-type: none;
@@ -180,6 +189,9 @@ main{
     .gem{
         /* Gem image */
         margin-top: 300px;
+    }
+    .gem:hover{
+        margin-top: 280px;
     }
     .verticalFlex{
         div{
