@@ -4,7 +4,7 @@
     /* Colours */
     --background-overlay: #3939399d;
     --background-overlay-tab: #121212b2;
-    --background-tab: #1a1a21ec;
+    --background-tab: #2c2c36cf;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
@@ -65,7 +65,8 @@ h1.fontWhiteUppercase{
 
 /* Main */
 main{
-    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
 }
 .verticalFlex{
     display: flex;
@@ -119,7 +120,7 @@ main{
 .tabWrapper{
     color: var(--text-main);
     gap: 20px;
-    margin: 0px 10px;
+    margin: 10px 10px;
     padding: 40px 30px;
     position: relative;
     > h2{
@@ -171,10 +172,6 @@ main{
         font-size: 3rem;
     }
     /* Main */
-    main{
-        display: flex;
-        flex-direction: column;
-    }
     .gem{
         margin-top: 300px;
     }
