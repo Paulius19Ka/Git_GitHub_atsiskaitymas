@@ -6,9 +6,15 @@
     --text-main: #ffffff;
     --text-hover: #70b8c4;
 }
+
 body{
     margin: 0;
 }
+h1, p, ul{
+    margin: 0 10px;
+    padding: 0;
+}
+
 /* Text styles */
 .fontWhiteUppercase{
     font-size: 0.9rem;
@@ -22,10 +28,12 @@ body{
     border-bottom: 1px dotted var(--text-main);
 }
 h1.fontWhiteUppercase{
+    /* Header */
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.3rem;
 }
+
 /* Background image */
 .backgroundImg{
     background-image: url('./media/bg.jpg');
@@ -35,7 +43,19 @@ h1.fontWhiteUppercase{
     background-image: url('./media/bg-overlay.png');
     background-color: var(--background-overlay);
 }
+
 /* Main */
 .gem{
+    /* Gem */
     width: 50px;
+}
+.menuList{
+    /* Menu List */
+    list-style-type: none;
+    li{
+        border: 1px solid var(--text-main);
+        border-radius: 3px;
+        padding: 15px;
+        text-align: center;
+    }
 }
