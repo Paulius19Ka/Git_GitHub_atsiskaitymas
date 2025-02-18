@@ -4,6 +4,10 @@ class Tab{
         return this.render();
     }
     render(){
+        // Removes the starging elements from the page
+        const startState = document.getElementById('startState');
+        startState.remove();
+
         const tabWrapper = document.createElement('div');
 
         const heading = document.createElement('h2');

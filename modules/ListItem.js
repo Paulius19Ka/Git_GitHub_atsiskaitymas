@@ -14,7 +14,6 @@ class ListItem{
 
         // Adding an event listener to every list item
         listItem.addEventListener('click', () => {
-            console.log(this.tab.heading);
             new Tab(this.tab);
         })
 
