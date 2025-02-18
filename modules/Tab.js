@@ -9,6 +9,7 @@ class Tab{
     }
     render(){
         const main = document.querySelector('main');
+        main.classList.remove('backgroundOverlay');
         main.classList.add('backgroundOverlayTabOpen');
         // Removes the starging elements from the page
         const startState = document.getElementById('startState');
@@ -41,6 +42,7 @@ class Tab{
             const tabState = document.getElementById('tabState');
             tabState.remove();
             main.classList.remove('backgroundOverlayTabOpen');
+            main.classList.add('backgroundOverlay');
             new StartState();
             new ListItem();
         })
