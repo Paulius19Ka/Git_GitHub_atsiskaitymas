@@ -9,6 +9,7 @@ class Tab{
         startState.remove();
 
         const tabWrapper = document.createElement('div');
+        tabWrapper.classList.add('tabWrapper', 'backgroundOverlay', 'verticalFlex');
 
         const heading = document.createElement('h2');
         heading.textContent = this.tab.heading;
@@ -21,10 +22,14 @@ class Tab{
 
             paragraphWrapper.appendChild(paragraphEl);
         })
+        const closeButton = document.createElement('img');
+        closeButton.setAttribute('src', './media/xmark-solid.svg');
+        closeButton.setAttribute('alt', 'close tab button');
+        closeButton.classList.add('closeButton');
 
-        tabWrapper.append(heading, paragraphWrapper);
+        tabWrapper.append(heading, paragraphWrapper, closeButton);
 
-        return document.querySelector('body').appendChild(tabWrapper);
+        return document.querySelector('main').appendChild(tabWrapper);
     }
 }
 export default Tab;

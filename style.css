@@ -101,6 +101,13 @@ h1.fontWhiteUppercase{
     border-top: 1px solid var(--text-main);
     margin: 0 10px;
 }
+/* Tab */
+.closeButton{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 
 /* Desktop style */
 @media (min-width: 769px){
