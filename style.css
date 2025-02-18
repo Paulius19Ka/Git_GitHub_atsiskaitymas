@@ -30,6 +30,7 @@ h1, p{
 }
 .fontDotUnderline{
     border-bottom: 1px dotted var(--text-main);
+    transition: ease-out 0.3s;
 }
 .fontDotUnderline:hover{
     color: var(--text-hover);
@@ -84,6 +85,7 @@ h1.fontWhiteUppercase{
         border-radius: 3px;
         padding: 15px;
         text-align: center;
+        transition: ease-out 0.5s;
     }
     li:hover{
         background-color: var(--list-hover);
