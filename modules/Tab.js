@@ -13,7 +13,7 @@ class Tab{
 
         const tabWrapper = document.createElement('div');
         tabWrapper.setAttribute('id', 'tabState');
-        tabWrapper.classList.add('tabWrapper', 'backgroundOverlay', 'verticalFlex');
+        tabWrapper.classList.add('tabWrapper', 'tabBackground', 'verticalFlex');
 
         const heading = document.createElement('h2');
         heading.textContent = this.tab.heading;
