@@ -2,7 +2,8 @@
     /* Font */
     font-family: "Roboto Flex", serif;
     /* Colours */
-    --background-overlay: #3e3e3e7e;
+    --background-overlay: #202020b2;
+    --background-overlay-tab: #121212b2;
     --background-tab: #1a1a21ec;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
@@ -54,6 +55,7 @@ h1.fontWhiteUppercase{
 .backgroundOverlay{
     background-image: url('./media/bg-overlay.png');
     background-color: var(--background-overlay);
+    height: 100vh;
 }
 
 /* Main */
