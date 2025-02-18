@@ -1,3 +1,5 @@
+import StartState from "./StartState.js";
+
 class Tab{
     constructor(tab){
         this.tab = tab;
@@ -26,6 +28,10 @@ class Tab{
         closeButton.setAttribute('src', './media/xmark-solid.svg');
         closeButton.setAttribute('alt', 'close tab button');
         closeButton.classList.add('closeButton');
+        closeButton.addEventListener('click', e => {
+            console.log('x');
+            new startState();
+        })
 
         tabWrapper.append(heading, paragraphWrapper, closeButton);
 

@@ -1,4 +1,7 @@
+import StartState from "./modules/StartState.js";
 import ListItem from "./modules/ListItem.js";
+
+new StartState();
 
 // Fetching data from a file
 fetch('data.json')
