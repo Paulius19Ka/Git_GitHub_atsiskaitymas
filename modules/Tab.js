@@ -21,6 +21,7 @@ class Tab{
         const image = document.createElement('img');
         image.setAttribute('src', `${this.tab.image}`);
         image.setAttribute('alt', `${this.tab.image.slice(8)}`);
+        image.classList.add('tabImage');
 
         const paragraphWrapper = document.createElement('div');
         // Runing a loop through the array in data object, to create paragraphs for each paragraph in array
