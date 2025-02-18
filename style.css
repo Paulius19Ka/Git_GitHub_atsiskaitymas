@@ -1,6 +1,10 @@
 :root{
-    /* Colors */
+    /* Font */
+    font-family: "Roboto Flex", serif;
+    /* Colours */
     --background-overlay: #3e3e3e7e;
+    --text-main: #ffffff;
+    --text-hover: #70b8c4;
 }
 body{
     margin: 0;
