@@ -3,7 +3,7 @@
     font-family: "Roboto Flex", serif;
     /* Colours */
     --background-overlay: #3e3e3e7e;
-    --background-tab: #282834ec;
+    --background-tab: #1a1a21ec;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
@@ -132,6 +132,11 @@ h1.fontWhiteUppercase{
     position: absolute;
     top: 20px;
     right: 20px;
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+.closeButton:hover{
+    transform: rotate(90deg);
 }
 
 /* Desktop style */
