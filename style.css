@@ -121,10 +121,21 @@ h1.fontWhiteUppercase{
         margin: 0;
         padding-bottom: 10px;
     }
+    .tabParagraphWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 10px 0px;
+        p{
+            margin: 0;
+        }
+    }
+    
     .tabImage, .tabVideo{
         width: 100%;
         height: 300px;
         object-fit: cover;
+        border-radius: 5px;
     }
 }
 .closeButton{
