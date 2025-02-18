@@ -120,7 +120,7 @@ h1.fontWhiteUppercase{
         margin: 0;
         padding-bottom: 10px;
     }
-    .tabImage{
+    .tabImage, .tabVideo{
         width: 100%;
         height: 300px;
         object-fit: cover;
