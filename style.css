@@ -3,7 +3,7 @@
     font-family: "Roboto Flex", serif;
     /* Colours */
     --background-overlay: #3e3e3e7e;
-    --background-tab: #282834ec;
+    --background-tab: #1a1a21ec;
     --text-main: #ffffff;
     --text-hover: #70b8c4;
     --list-hover: #ffffff7f;
@@ -111,6 +111,7 @@ h1.fontWhiteUppercase{
     gap: 20px;
     margin: 10px;
     padding: 40px 30px;
+    position: relative;
     > h2{
         width: fit-content;
         font-size: 2rem;
@@ -120,10 +121,21 @@ h1.fontWhiteUppercase{
         margin: 0;
         padding-bottom: 10px;
     }
-    .tabImage{
+    .tabParagraphWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 10px 0px;
+        p{
+            margin: 0;
+        }
+    }
+    
+    .tabImage, .tabVideo{
         width: 100%;
         height: 300px;
         object-fit: cover;
+        border-radius: 5px;
     }
 }
 .closeButton{
@@ -131,6 +143,11 @@ h1.fontWhiteUppercase{
     position: absolute;
     top: 20px;
     right: 20px;
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+.closeButton:hover{
+    transform: rotate(90deg);
 }
 
 /* Desktop style */
@@ -144,6 +161,10 @@ h1.fontWhiteUppercase{
         font-size: 3rem;
     }
     /* Main */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
     .gem{
         margin-top: 300px;
     }
@@ -168,6 +189,20 @@ h1.fontWhiteUppercase{
         > li:last-child{
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
+        }
+    }
+    /* Tab */
+    .tabWrapper{
+        max-width: 1000px;
+        align-self: center;
+        margin: 50px 20px;
+        > div{
+            margin: 0;
+        }
+        .closeButton{
+            width: 25px;
+            top: 40px;
+            right: 30px;
         }
     }
 

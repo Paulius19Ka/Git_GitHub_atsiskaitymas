@@ -23,6 +23,7 @@ class Tab{
         const image = new TabMedia(this.tab.image);
 
         const paragraphWrapper = document.createElement('div');
+        paragraphWrapper.classList.add('tabParagraphWrapper');
         // Runing a loop through the array in data object, to create paragraphs for each paragraph in array
         this.tab.paragraphs.forEach(paragraph => {
             const paragraphEl = document.createElement('p');
