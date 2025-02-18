@@ -53,7 +53,10 @@ h1.fontWhiteUppercase{
 .gem{
     /* Gem */
     width: 50px;
-
+    margin-top: 80px;
+    padding: 30px;
+    border: 1px solid var(--text-main);
+    border-radius: 100%;
     align-self: center;
 }
 .menuList{
