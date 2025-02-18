@@ -18,3 +18,7 @@ body{
     background-image: url('./media/bg-overlay.png');
     background-color: var(--background-overlay);
 }
+/* Main */
+.gem{
+    width: 50px;
+}
