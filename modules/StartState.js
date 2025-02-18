@@ -3,6 +3,7 @@ class StartState{
         return this.render();
     }
     render(){
+        // Creates the starting html page
         const div = document.createElement('div');
         div.setAttribute('id', 'startState');
         div.classList.add('backgroundOverlay', 'verticalFlex');
