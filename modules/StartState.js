@@ -3,8 +3,6 @@ class StartState{
         return this.render();
     }
     render(){
-        console.log('test');
-        
         const div = document.createElement('div');
         div.setAttribute('id', 'startState');
         div.classList.add('backgroundOverlay', 'verticalFlex');

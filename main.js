@@ -1,6 +1,7 @@
 import StartState from "./modules/StartState.js";
 import ListItem from "./modules/ListItem.js";
 
+// Creates the starging page in a Class
 new StartState();
 
 // Fetching data from a file
