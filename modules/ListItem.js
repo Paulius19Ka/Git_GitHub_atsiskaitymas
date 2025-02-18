@@ -11,6 +11,8 @@ class ListItem{
         listItem.textContent = this.tab.heading;
 
         menuList.appendChild(listItem);
+        
+        return menuList;
     }
 }
 export default ListItem;
